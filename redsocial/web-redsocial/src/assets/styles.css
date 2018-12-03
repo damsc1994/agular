@@ -1,0 +1,253 @@
+/*GENERAL*/
+.h1-strong {
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 13px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.active {
+  background: #cc1717
+}
+/* CABECERA */
+.navigation {
+  padding: 0px !important;
+
+}
+
+.navigation .navbar {
+  border-radius: 0px !important;
+  background: #e53c37 !important;
+}
+
+.navigation .navbar *{
+  color: white !important ;
+
+}
+
+
+.navigation .navbar a:hover{
+  background: #cc1717;
+}
+
+.form-control {
+  font-family: cursive !important;
+  font-weight: bold;
+
+}
+
+.navigation .dropdown-menu *{
+  color: black !important;
+}
+
+.navigation .navbar .dropdown-menu a:hover{
+  background: #eee !important;
+}
+
+.navigation .navbar .dropdown  .dropdown-toggle{
+  background: #cc1717 !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.navigation .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-top: 9px;
+  margin-right: 2px;
+}
+
+.navigation .avatar img{
+  height: auto;
+  width: 100%;
+
+}
+
+.jumbotron {
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*GENTE*/
+.item-user .image-user,
+.item-publication .image-user{
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.item-user .image-user img,
+.item-publication .image-user img{
+  width: 80px;
+  height: auto;
+
+}
+
+.item-user .user-name,
+.item-publication .user-name{
+  margin-top: 10px;
+}
+
+.item-user .user-name .nickname{
+  color: #cc1717;
+  font-weight: bold;
+}
+
+.item-user .user-name .name{
+  font-weight: bold;
+}
+
+
+/*SIDEBAR */
+#new-publication {
+  margin-right: 17px;
+}
+.sidebar-32{
+  width: 32% !important;
+  padding: 0px !important;
+}
+
+#user-card, #new-publication{
+  padding: 5px;
+  width: 32%;
+
+}
+
+#user-card .avatar{
+  height: 75px;
+  width: 75px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+
+}
+
+#user-card .avatar img{
+  width: 100%;
+}
+
+#user-card .name-surname{
+  font-weight: 300;
+  font-size: 17px;
+}
+
+#user-card .name-surname a{
+  color: #cc1717;
+}
+
+#user-card .name-surname .nickname{
+  color: #1568e6;
+}
+
+#user-card .label-stats,
+#user-card .number-stats{
+  display: block;
+  text-align: center;
+  transition: 300ms;
+}
+
+#user-card .stats .label-stats{
+  font-weight: bold;
+  color: #5555;
+}
+
+#user-card .stats .number-stats{
+  font-weight: bold;
+  color: #5555;
+}
+
+#user-card .stats a:hover{
+  text-decoration: none;
+}
+
+#user-card .stats a:hover .number-stats{
+  font-weight: bold;
+  color: #cc1717;
+}
+
+#user-card .stats{
+  border-top: 1px solid #eeee;
+  margin-top: 10px;
+}
+#user-card .following-data{
+  float: left;
+  padding-right: 18px;
+  padding-left: 18px;
+  margin-top: 10px;
+  border-right: 2px solid #5555;
+}
+
+#user-card .following-data:first-child{
+  padding-left: 6px;
+}
+
+#user-card .following-data:last-child{
+  border-right: none;
+}
+
+
+/*TIMELINE*/
+#publications {
+  min-height: 500px;
+}
+
+#publications .date {
+  color: gray;
+}
+
+
+/*PROFILE*/
+#data-profile {
+  min-height: 500px;
+}
+
+#data-profile .avatar {
+  width: 185px;
+  height: 185px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+#data-profile .avatar img{
+  width: 100%;
+}
+
+#data-profile .user-name{
+  margin-top: 40px;
+}
+
+#data-profile .user-name .name{
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+}
+
+#data-profile .user-name .nick{
+  font-size: 24px;
+  color: grey;
+}
+
+#data-profile .stats{
+  margin-top: 20px;
+}
+
+#data-profile .stats .following-data{
+  font-size: 20px;
+  line-height: 35px;
+  float: left;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+#data-profile .user-publications{
+  padding-top: 20px;
+}
